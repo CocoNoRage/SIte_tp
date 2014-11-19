@@ -1,0 +1,219 @@
+/* modifications des styles prédéfinis */
+a:link {
+	text-decoration:none ;
+	color:#AAAAAA
+}
+
+a:visited {
+	text-decoration:none ;
+	color:#AAAAAA ;
+}
+/*styles de balises */
+div {
+	overflow:hidden ;
+	position:absolute ;
+	font-family:verdana, serif ;
+	font-size:small ;
+	color:#FFFFFF ;
+}
+	
+/*styles généraux */
+.PetitTitre{
+	background-color:#AAAAAA ;
+	font-weight:bold ;
+	text-align:center ;
+	width:100% ;
+	font-size:small ;
+}
+
+.PetitTexte{
+	text-align:left ;
+	font-size:x-small ;
+	color:#000000 ;
+}
+/*styles généraux reservés aux divs*/
+div.divPostit{
+	width:150px ;
+	height:100px ;
+	background-color:#AAAAAA ;
+	text-align:center ;
+	cursor:pointer ;
+}
+	
+
+/* style spécifique a chaque calques */
+#divPrincipal{
+	left:50% ;
+	top:50% ;
+	width:700px ;
+	height:500px ;
+	margin-left:-350px ;
+	margin-top:-250px ;
+	background-image: url("../images/fond.jpg") ;
+}
+
+#divTitre{
+	left:0px ;
+	top:0px ;
+	width:100% ;
+	height:60px ;
+	background-image: url("../images/titre.jpg") ;
+}
+	
+#divMenus{
+	left:0px ;
+	top:60px ;
+	width:100% ;
+	height:20px ;
+	text-align:center ;
+	background-color:#333333;
+}
+
+#divBandeau{
+	left:0px ;
+	top:80px ;
+	width:100% ;
+	height:100px ;	
+	background-image: url("../images/bandeau0.jpg") ;
+}
+
+#divPostits{
+	left:350px ;
+	top:160px ;
+	width:320px ;
+	height:220px ;
+}
+
+#divPostit1{
+	left:0px ;
+	top:!0px;
+}
+
+#divPostit2{
+	left:170px ;
+	top:0px ;
+}
+
+#divPostit3{
+	left:0px ;
+	top:120px ;
+}
+
+#divPostit4{
+	left:170px ;
+	top:120px ;
+}
+
+#divIdent{
+	left:30px ;
+	top:200px ;
+	width:160px ;
+	height:60px ;
+	background-color:#FFFFFF ;
+	background-image: url("../images/ident.png") ;
+	background-repeat:no-repeat;
+}
+
+#divTextIdent{
+	left:40px ;
+	top:0px ;
+	width:120px ;
+	height:100% ;
+}
+
+#divNews{
+	left:30px ;
+	top:280px ;
+	width:250px ;
+	height:195px ;
+	background-color:#FFFFFF ;
+
+}
+
+#divimgNews{
+	width:250px ;
+	height:195px ;
+	background-image: url("../images/news.png") ;
+	background-repeat:no-repeat ;
+	z-index:1 ;
+}
+#divTextNews{
+	left:0px ;
+	top:75px ;
+	width:100% ;
+	background-color:#FFFFFF ;
+}
+
+#divLiens{
+	left:350px ;
+	top:430px ;
+	width:320px ;
+	height:45px ;
+	background-color:#FFFFFF ;
+	background-image: url("../images/lien.png") ;
+	background-repeat:no-repeat ;
+}
+
+#divTextLiens{
+	left:50px ;
+	top:0px ;
+	width:270px ;
+	height:100% ;
+}
+
+#divPied{
+	left:0px ;
+	top:487px ;
+	width:100% ;
+	height:13px ;
+	font-size:x-small ;
+	text-align:right ;
+	background-color:#666666 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
